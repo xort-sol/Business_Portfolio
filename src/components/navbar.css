@@ -93,11 +93,32 @@
                         color: var(--white-color);
                         cursor: pointer;
 
+                        @media (max-width:992px) {
+                            padding: 1rem 0;
+                            display: block;                        
+                        }
+                        &.active,
+                        &:hover,
+                        &:focus{
+                            color: #e21056;
+                        }
+
                     }
+
+
                 }
 
             }
+
+
+
         }
+        /* .menuItem ul li a.active, */
+        /* .menuItem ul li a:hover,
+        .menuItem ul li a:focus{
+            color: #e21056;
+        } */
+
     }
 }
 

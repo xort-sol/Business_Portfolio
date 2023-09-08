@@ -7,7 +7,7 @@ import Logo from '../assets/logo/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-{/* <FontAwesomeIcon menuBars="fa-solid fa-bars" /> */}
+{/* <FontAwesomeIcon menuBars="fa-solidbars" /> */}
 
 export default function Navbar() {
 
